@@ -7,6 +7,7 @@ This project demonstrates a backend API for integrating Stripe Payment Gateway u
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Deployment](#deployment)
+- [Api-Documentation](#Api-Documentation)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
 - [API Endpoints](#api-endpoints)
@@ -26,6 +27,11 @@ These instructions will help you set up and run the project on your local machin
 ## Deployment
 
 This project is deployed on Railway Cloud. You can access the deployed application [here](https://stripeinteg-production.up.railway.app/api/v1/create_intent).
+
+## Api Documentation
+
+- api documentation [click here](https://documenter.getpostman.com/view/25982404/2sA3XTfgG7)
+- postman api collection [click here](https://api.postman.com/collections/25982404-f1b63667-bf04-4b1e-a76c-4a9371efc15d?access_key=PMAT-01J0SZYTP08EEG1KQGV85FZ3ZZ)
 
 ### Installation
 
@@ -63,12 +69,12 @@ This project is deployed on Railway Cloud. You can access the deployed applicati
     ```
 
 ### Capture Intent
-- **URL:** `/api/v1/capture_intent/{id}`
+- **URL:** `/api/v1/capture_intent/{intentId}`
 - **Method:** `POST`
 - **Description:** Captures an existing payment intent.
 
 ### Create Refund
-- **URL:** `/api/v1/create_refund/{id}`
+- **URL:** `/api/v1/create_refund/{intentId}`
 - **Method:** `POST`
 - **Description:** Creates a refund for an existing payment intent.
 
