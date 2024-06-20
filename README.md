@@ -6,10 +6,10 @@ This project demonstrates a backend API for integrating Stripe Payment Gateway u
 
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
+- [Deployment](#deployment)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
 - [API Endpoints](#api-endpoints)
-- [Deployment](#deployment)
 - [Built With](#built-with)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgments)
@@ -23,11 +23,15 @@ These instructions will help you set up and run the project on your local machin
 - Java 17 or higher
 - Maven
 
+## Deployment
+
+This project is deployed on Railway Cloud. You can access the deployed application [here](https://stripeinteg-production.up.railway.app/api/v1/create_intent).
+
 ### Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/stripe-payment-gateway-integration.git
+    git clone https://github.com/HiteshChandra001/stripe_integ.git
     ```
 
 ### Running the Application
@@ -73,9 +77,6 @@ These instructions will help you set up and run the project on your local machin
 - **Method:** `GET`
 - **Description:** Retrieves a list of all payment intents.
 
-## Deployment
-
-This project is deployed on Railway Cloud. You can access the deployed application [here](https://stripeinteg-production.up.railway.app/api/v1/create_intent).
 
 ## Built With
 
